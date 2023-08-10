@@ -1,0 +1,38 @@
+body{
+    background:linear-gradient(#24353fe4 ,#24353fe4) ;
+}
+h1{
+    color:#10626e;
+}
+.navbar{
+    box-shadow: 0 0  40px #162026;;
+    background-color:#92aab9b9 !important;
+}
+
+.btn-outline-color{
+    border-color: #10626e;
+    color: #FFFFFF80;
+}
+
+.btn-outline-color:hover{
+    background-color: #10626e;
+    color: white;
+}
+
+.containerX{
+    width: 450px;
+    min-width: 450px;
+    padding: 2rem;
+    box-shadow: 0 0  40px #162026;;
+    border-radius: 10px;
+    background-color:#92aab9b9;
+}
+
+
+
+
+
+
+
+
+

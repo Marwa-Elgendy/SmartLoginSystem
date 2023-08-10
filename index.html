@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <section class="containerX">
+        <div class="form " id="Login" >
+            <h1 class="form-title text-center mb-3 ">Login</h1>
+    
+            <span class="d-none" id="username"></span>
+            <div class="form-input-group mb-3">
+              <input type="email" class="form-input" id="signinEmail" placeholder="Username or Email" autofocus>
+              <div class="form-inpt-error-message"></div>
+            </div>
+    
+            <div class="form-input-group  ">
+              <input type="password" class="form-input" id="signinPassword" placeholder="password" autofocus>  
+              <div class="form-inpt-error-message"></div>
+            </div>
+    
+            <p class="form-message-error" id="message" ></p>
+    
+            <button onclick="login()" class="form-button" type="submit" id="logHome">login</button>
+    
+            <p class="form-text text-center pt-4">
+              <a href="#" class="form-link text-decoration-none">Forgot your password ?</a>
+            </p>
+    
+            <p class="form-text text-center">
+              Don't have an account ?<a class="form-link text-decoration-none" href="./Sign Up/index.html" id="linkCreateAccount" > Create account</a>
+            </p>
+          </div>
+    </section>
+    
+
+    <script src="./js/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
